@@ -25,9 +25,9 @@ export interface UiFeeParams {
 
 export const uiFeeParams$ = new BehaviorSubject<UiFeeParams>({
   address: '9fdmUutc4DhcqXAAyQeBTsw49PjEM4vuW9riQCHtXAoGEw3R11d',
-  minUiFee: 0.3,
-  uiFeePercent: 3,
-  uiFeeThreshold: 30,
+  minUiFee: 0.0,
+  uiFeePercent: 0,
+  uiFeeThreshold: 0,
 });
 
 const _calculateUiFee = (
