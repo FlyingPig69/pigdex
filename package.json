@@ -115,4 +115,10 @@
   "engines": {
     "node": "22.x"
   }
+
+  {
+  "scripts": {
+    "build": "[my-framework] build --output public"
+  }
+}
 }
